@@ -60,6 +60,14 @@ export default function NavbarComponents() {
                 Blogs
               </a>
             </li>
+            <li>
+              <select data-choose-theme>
+                <option value="default">Default</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="black">Black</option>
+                <option value="lofi">Lofi</option>
+              </select>
+            </li>
           </ul>
         </div>
       </div>

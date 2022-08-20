@@ -18,11 +18,17 @@ export default function Achievement() {
           id="achievement"
           className="relative flex flex-row items-center justify-center gap-5"
         >
-          <img
-            src={Blob}
-            className="absolute z-0 hidden w-8/12 md:block"
-            alt=""
-          />
+          <svg
+            className="absolute z-0 hidden w-8/12 fill-accent md:block"
+            viewBox="0 0 200 200"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill=""
+              d="M65,-49.9C79.6,-33.5,83.6,-6.8,75.6,12.9C67.7,32.5,47.7,45.1,28,52.4C8.2,59.8,-11.3,61.9,-31.3,55.8C-51.2,49.7,-71.5,35.3,-74.5,18.2C-77.6,1,-63.2,-19,-47.9,-35.5C-32.6,-52,-16.3,-65.1,4.4,-68.6C25.2,-72.2,50.4,-66.2,65,-49.9Z"
+              transform="translate(100 100)"
+            />
+          </svg>
           <div className="container z-10 flex flex-col items-center">
             <div className="z-10 text-center text-5xl font-bold">
               <span className="mb-16 flex flex-row gap-5">Achievement</span>

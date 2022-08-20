@@ -19,16 +19,14 @@ import StackIcon from "./components/StackIcon";
 import Achievement from "./components/Achievement";
 import Project from "./components/Project";
 import ReachMe from "./components/ReachMe";
+import { themeChange } from "theme-change";
 
 function App() {
   const [index, setIndex] = useState(0);
   const TEXTS = ["Ma'ruf", "Student", "WebDev"];
   useEffect(() => {
-    const intervalId = setInterval(
-      () => setIndex((index) => index + 1),
-      3000 // every 3 seconds
-    );
-    return () => clearTimeout(intervalId);
+    themeChange(false);
+    // 👆 false parameter is required for react project
   }, []);
   return (
     <>
@@ -179,7 +177,7 @@ function App() {
         <ReachMe />
       </div>
       <div className="mb-10 w-full">
-        <Marquee>
+        <Marquee gradient={false}>
           <StackIcon />
         </Marquee>
       </div>
