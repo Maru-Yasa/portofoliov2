@@ -26,6 +26,11 @@ function App() {
   const TEXTS = ["Ma'ruf", "Student", "WebDev"];
   useEffect(() => {
     themeChange(false);
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
     // 👆 false parameter is required for react project
   }, []);
   return (
