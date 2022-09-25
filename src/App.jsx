@@ -9,6 +9,7 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 import Me from "./images/me.png";
+import NetworkVideo from "./images/network.mp4";
 import TextTransition, { presets } from "react-text-transition";
 import { useEffect, useState } from "react";
 import IlusAbout from "./images/ilus-about.gif";
@@ -36,8 +37,17 @@ function App() {
   return (
     <>
       <NavbarComponents />
-      <div className="w-full">
-        <div class="min-h-screen bg-base-200">
+      <div className="relative z-10 w-full">
+        <div className="absolute top-0 h-full max-h-screen w-full">
+          <video
+            className="z-10 h-full min-w-full object-cover opacity-10"
+            src={NetworkVideo}
+            autoPlay
+            muted
+            loop
+          ></video>
+        </div>
+        <div class="z-30 min-h-screen bg-base-200">
           <div class="mx-auto flex justify-center text-start">
             <div className="mt-28 flex flex-col justify-center gap-4 md:mt-40 md:grid md:grid-cols-12">
               <div className="avatar flex w-full justify-center md:col-span-5">
@@ -45,7 +55,7 @@ function App() {
                   <img src={Me} className="w-full" />
                 </div>
               </div>
-              <div class="col-span-7">
+              <div class="z-30 col-span-7">
                 <h1 class="text-2xl font-bold md:text-3xl">Hello there,</h1>
                 <h1 class="text-4xl font-bold sm:text-xl md:text-5xl">
                   <span className="flex flex-row gap-2">
@@ -103,7 +113,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="mt-10 mb-10 flex flex-col justify-center self-center md:px-0">
+      <div className="z-20 mt-10 mb-10 flex flex-col justify-center self-center md:px-0">
         <div
           className="container mx-auto mb-16 px-5 md:mb-0 md:grid md:grid-cols-3"
           id="about"
