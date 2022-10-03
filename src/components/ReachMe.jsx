@@ -1,4 +1,4 @@
-import IlusLook from "../images/ilus-look.png";
+import IlusLook from "../images/reach_me.png";
 
 export default function ReachMe() {
   return (

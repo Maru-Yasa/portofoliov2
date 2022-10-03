@@ -12,8 +12,8 @@ import Me from "./images/me.png";
 import NetworkVideo from "./images/network.mp4";
 import TextTransition, { presets } from "react-text-transition";
 import { useEffect, useState } from "react";
-import IlusAbout from "./images/ilus-about.gif";
-import IlusSkills from "./images/ilus-skils.gif";
+import IlusAbout from "./images/about_me.png";
+import IlusSkills from "./images/my_skills.png";
 import { Link } from "react-scroll";
 import Marquee from "react-fast-marquee";
 import StackIcon from "./components/StackIcon";
@@ -132,14 +132,6 @@ function App() {
                 my favorite subject, espicially at back-end, but i would like to
                 create front-end too.
               </p>
-              <span className="text-center text-xs text-slate-500">
-                {" "}
-                Illustration by{" "}
-                <a href="https://icons8.com/illustrations/author/625472">
-                  Ekaterina Rogova
-                </a>{" "}
-                from <a href="https://icons8.com/illustrations">Ouch!</a>
-              </span>
             </div>
           </div>
         </div>
@@ -160,14 +152,6 @@ function App() {
                 code using Git. Also familiar with Linux opearing system, and
                 deploy personal site on it
               </p>
-              <span className="text-center text-xs text-slate-500">
-                {" "}
-                Illustration by{" "}
-                <a href="https://icons8.com/illustrations/author/625472">
-                  Ekaterina Rogova
-                </a>{" "}
-                from <a href="https://icons8.com/illustrations">Ouch!</a>
-              </span>
             </div>
           </div>
           <div className="flex flex-col items-center text-center">

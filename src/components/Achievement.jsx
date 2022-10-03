@@ -1,19 +1,13 @@
 import Sertifikat1 from "../images/sertifikat-1.png";
 import Sertifikat2 from "../images/sertifikat-2.png";
 import Blob from "../images/blob.svg";
-import IlusWalk from "../images/ilus-walk.png";
+import IlusWalk from "../images/achievement.png";
 import { Link } from "react-scroll";
 import { FiChevronDown } from "react-icons/fi";
 export default function Achievement() {
   return (
     <>
-      <div className="relative mt-20 mb-32 flex w-full flex-col justify-center self-center px-5 md:px-0">
-        <img
-          src={IlusWalk}
-          className="absolute bottom-10 right-10 hidden w-64 md:block"
-          alt=""
-        />
-
+      <div className="relative mt-20 mb-32 flex h-full w-full flex-col justify-center self-center px-5 md:px-0">
         <div
           id="achievement"
           className="relative flex flex-row items-center justify-center gap-5"
@@ -62,7 +56,7 @@ export default function Achievement() {
           </div>
         </div>
       </div>
-      <div className="flex w-full items-center justify-center">
+      <div className="relative flex w-full items-center justify-center">
         <Link
           activeClass="active"
           to="reachme"
@@ -74,6 +68,11 @@ export default function Achievement() {
         >
           <FiChevronDown size={64} />
         </Link>
+        <img
+          src={IlusWalk}
+          className="absolute bottom-0 right-10 hidden w-64 md:block"
+          alt=""
+        />
       </div>
     </>
   );

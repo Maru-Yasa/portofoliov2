@@ -3,7 +3,7 @@ import Sertifikat2 from "../images/sertifikat-2.png";
 import Yukreview from "../images/yukreview.png";
 import Pixme from "../images/pixme.png";
 import Suit from "../images/suitonline.png";
-import IlusShow from "../images/ilus-show.png";
+import IlusShow from "../images/personal_project.png";
 import { Link } from "react-scroll";
 import { FiChevronDown } from "react-icons/fi";
 
