@@ -1,7 +1,7 @@
 import Sertifikat1 from "../images/sertifikat-1.png";
 import Sertifikat2 from "../images/sertifikat-2.png";
 import Yukreview from "../images/yukreview.png";
-import Pixme from "../images/pixme.png";
+import Pixme from "../images/pixme-new.png";
 import Suit from "../images/suitonline.png";
 import IlusShow from "../images/personal_project.png";
 import { Link } from "react-scroll";
@@ -18,7 +18,7 @@ export default function Project() {
     {
       title: "Pixme",
       desc: "Secreto.site or NGL.link clone, but the web is retro style",
-      link: "https://github.com/Maru-Yasa/pixme",
+      link: "https://pixme.site",
       image: Pixme,
     },
     {
