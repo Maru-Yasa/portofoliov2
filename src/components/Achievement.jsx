@@ -1,5 +1,6 @@
 import Sertifikat1 from "../images/sertifikat-1.png";
 import Sertifikat2 from "../images/sertifikat-2.png";
+import Sertifikat3 from "../images/moe_maruf.png";
 import Blob from "../images/blob.svg";
 import IlusWalk from "../images/achievement.png";
 import { Link } from "react-scroll";
@@ -49,6 +50,18 @@ export default function Achievement() {
                 <div className="text-center">
                   <h2 className="text-2xl">
                     <span className="font-bold">1st</span> Video Reporting
+                  </h2>
+                </div>
+              </div>
+              <div className="flex flex-col items-center gap-5">
+                <img
+                  src={Sertifikat3}
+                  className="w-96 rounded-xl grayscale"
+                  alt=""
+                />
+                <div className="text-center">
+                  <h2 className="text-2xl">
+                    <span className="font-bold">Medal Of Excelent</span> LKSN WebTech
                   </h2>
                 </div>
               </div>
