@@ -41,7 +41,7 @@ export default function Achievement() {
                   </h2>
                 </div>
               </div>
-              <div className="flex flex-col items-center gap-5">
+              {/* <div className="flex flex-col items-center gap-5">
                 <img
                   src={Sertifikat2}
                   className="h-96 w-64 rounded-xl grayscale"
@@ -52,7 +52,7 @@ export default function Achievement() {
                     <span className="font-bold">1st</span> Video Reporting
                   </h2>
                 </div>
-              </div>
+              </div> */}
               <div className="flex flex-col items-center gap-5">
                 <img
                   src={Sertifikat3}
