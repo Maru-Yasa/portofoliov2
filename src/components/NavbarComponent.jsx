@@ -58,11 +58,6 @@ export default function NavbarComponents() {
             <li>
               <SmoothLink to={"achievement"}>Achievement</SmoothLink>
             </li>
-            <li>
-              <a target={"_blank"} href="https://blogs.maruyasa.site">
-                Blogs
-              </a>
-            </li>
             <li className="pr-5">
               <select className="select" data-choose-theme>
                 <option value="default">Default</option>
