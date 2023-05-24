@@ -1,6 +1,7 @@
 import Sertifikat1 from "../images/sertifikat-1.png";
 import Sertifikat2 from "../images/sertifikat-2.png";
 import Sertifikat3 from "../images/moe_maruf.png";
+import BadgesCyber from "../images/badges/badge_cyber.png";
 import Blob from "../images/blob.svg";
 import IlusWalk from "../images/achievement.png";
 import { Link } from "react-scroll";
@@ -8,7 +9,21 @@ import { FiChevronDown } from "react-icons/fi";
 export default function Achievement() {
   return (
     <>
-      <div className="relative mt-20 mb-32 flex h-full w-full flex-col justify-center self-center px-5 md:px-0">
+      <div className="relative mb-32 flex h-full w-full flex-col justify-center self-center px-5 md:px-0">
+        {/* <div className="flex flex-col items-center justify-center mb-16">
+          <div className="z-10 text-center text-5xl font-bold">
+              <span className="mb-5 flex flex-row gap-5">Certifications</span>
+          </div>
+            <div className="flex flex-col">
+              <div className="flex flex-col items-center gap-5">
+                <img
+                  src={BadgesCyber}
+                  className="rounded-xl"
+                  alt=""
+                />
+              </div>
+            </div>
+        </div> */}
         <div
           id="achievement"
           className="relative flex flex-row items-center justify-center gap-5"
@@ -61,7 +76,8 @@ export default function Achievement() {
                 />
                 <div className="text-center">
                   <h2 className="text-2xl">
-                    <span className="font-bold">Medal Of Excelent</span> LKSN WebTech
+                    <span className="font-bold">Medal Of Excelent</span> LKSN
+                    WebTech
                   </h2>
                 </div>
               </div>

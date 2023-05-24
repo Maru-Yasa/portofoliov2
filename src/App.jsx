@@ -79,13 +79,6 @@ function App() {
                   </a>
                   <a
                     target={"_blank"}
-                    href="https://www.instagram.com/maruf_ilyasa/"
-                    class="btn btn-primary"
-                  >
-                    <BsInstagram />
-                  </a>
-                  <a
-                    target={"_blank"}
                     href="https://www.linkedin.com/in/ma-ruf-ilyasa-3032481b0/"
                     class="btn btn-primary"
                   >
@@ -125,11 +118,11 @@ function App() {
             <div className="">
               <h1 className="text-4xl font-bold">About me</h1>
               <p className="text-justify">
-                Hello, my name is Muhammad Ma'ruf Ilyasa. I'm a student in SMK N
-                1 Bantul, Special Region of Yogyakarta. I'm currently studying
-                software engineering. I like technologies that's why I'm
-                choosing software engineering as my major. Web technologies is
-                my favorite subject, espicially at back-end, but i would like to
+                Hello, my name is Muhammad Ma'ruf Ilyasa. I'm a Full Stack Web
+                Developer Enthusiast. I'm currently studying software
+                engineering. I like technologies that's why I'm choosing
+                software engineering as my major. Web technologies is my
+                favorite subject, espicially at back-end, but i would like to
                 create front-end too.
               </p>
             </div>
