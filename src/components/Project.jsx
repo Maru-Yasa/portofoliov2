@@ -1,6 +1,6 @@
 import Sertifikat1 from "../images/sertifikat-1.png";
 import Sertifikat2 from "../images/sertifikat-2.png";
-import Yukreview from "../images/yukreview.png";
+import VidyaLearn from "../images/vidya-learn-app.png";
 import Pixme from "../images/pixme-new.png";
 import Suit from "../images/suitonline.png";
 import IlusShow from "../images/personal_project.png";
@@ -10,10 +10,10 @@ import { FiChevronDown } from "react-icons/fi";
 export default function Project() {
   const projects = [
     {
-      title: "YukReview",
-      desc: "Local film review and rating, also 1st place at LKS DIY WebTech competition",
-      link: "https://github.com/Maru-Yasa/YukReview",
-      image: Yukreview,
+      title: "Vidya Learn",
+      desc: "Web App that powered by AI to help student and teacher for study effectively",
+      link: "https://github.com/Maru-Yasa/SEVIMA-Vidya-Learn",
+      image: VidyaLearn,
     },
     {
       title: "Pixme",

@@ -84,8 +84,8 @@ function App() {
                   >
                     <BsLinkedin />
                   </a>
-                  <a target={"_blank"} class="btn btn-primary">
-                    <BsTwitter />
+                  <a target="_blank" href="https://drive.google.com/file/d/1XOw7WIFwuyI2vbPOvH0s_43TWL7G6xIf/view" className="btn btn-primary">
+                    CV
                   </a>
                 </div>
               </div>
@@ -136,14 +136,15 @@ function App() {
             <div className="">
               <h1 className="text-4xl font-bold">My Skills</h1>
               <p className="text-justify">
-                I have advance skill in HTML and CSS, bootstrap for styling, and
-                also javascript framework for front-end such as Vue and ReactJs.
-                Has experience using php framework such as Laravel and also
-                NodeJS library for REST API such as ExpressJS. Familiar with SQL
-                based databases like MySQL, Postsgres, SQLite and NoSQL based
-                database such like MongoDB. Able to work in team and managing
-                code using Git. Also familiar with Linux opearing system, and
-                deploy personal site on it
+                I possess strong skills in various areas that are
+                essential for modern software development. I am
+                familiar with the concepts of REST API and
+                proficient in building REST APIs using Node.js and
+                PHP (specifically Laravel). Additionally, I have a
+                comprehensive understanding of different types
+                of databases, including SQL databases such as
+                MySQL and PostgreSQL, as well as NoSQL
+                databases like MongoDB.
               </p>
             </div>
           </div>

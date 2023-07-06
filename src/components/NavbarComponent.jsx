@@ -35,14 +35,6 @@ export default function NavbarComponents() {
               <li>
                 <SmoothLink to={"achievement"}>Achievement</SmoothLink>
               </li>
-              <li className="">
-                <select className="select" data-choose-theme>
-                  <option value="default">Default</option>
-                  <option value="fantasy">Fantasy</option>
-                  <option value="black">Black</option>
-                  <option value="lofi">Lofi</option>
-                </select>
-              </li>
             </ul>
           </div>
           <a class="btn btn-ghost text-xl normal-case">maruyasa</a>
@@ -57,14 +49,6 @@ export default function NavbarComponents() {
             </li>
             <li>
               <SmoothLink to={"achievement"}>Achievement</SmoothLink>
-            </li>
-            <li className="pr-5">
-              <select className="select" data-choose-theme>
-                <option value="default">Default</option>
-                <option value="fantasy">Fantasy</option>
-                <option value="black">Black</option>
-                <option value="lofi">Lofi</option>
-              </select>
             </li>
           </ul>
         </div>
